@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="594" height="140" viewBox="0 0 594 140">
+  <defs>
+    <filter id="Rectangle_3" x="427" y="36" width="167" height="104" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.945" y1="0.5" x2="0.207" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d1d1d1"/>
+    </linearGradient>
+    <filter id="Rectangle_5" x="151" y="71" width="37" height="36" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Basic_Expenditure_Card" data-name="Basic Expenditure Card" transform="translate(-375 -105)">
+    <g id="Background" transform="translate(375 105)" fill="#d1d1d1" stroke="#9d9d9d" stroke-width="1">
+      <rect width="585" height="128" stroke="none"/>
+      <rect x="0.5" y="0.5" width="584" height="127" fill="none"/>
+    </g>
+    <g id="Content" transform="translate(0 -5)">
+      <text id="Basic_Expenditure_Card-2" data-name="Basic Expenditure Card" transform="translate(428 131)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="22">Basic Expenditure Card</tspan></text>
+      <text id="Active" transform="translate(444 160)" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="15">ACTIVE</tspan></text>
+      <text id="Issued_Access" data-name="Issued Access" transform="translate(429 185)" font-size="14" font-family="SegoeUI, Segoe UI" letter-spacing="0.008em"><tspan x="0" y="15">Issued Access</tspan></text>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(429 168)" stroke="#000" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 375, 110)" filter="url(#Rectangle_3)">
+        <g id="Rectangle_3-2" data-name="Rectangle 3" transform="translate(436 42)" fill="#fff" stroke="#b6b6b6" stroke-width="1">
+          <path d="M15,0H149a0,0,0,0,1,0,0V86a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V15A15,15,0,0,1,15,0Z" stroke="none"/>
+          <path d="M15,.5H148a.5.5,0,0,1,.5.5V85a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,85V15A14.5,14.5,0,0,1,15,.5Z" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="148" height="25" transform="translate(812 173)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 375, 110)" filter="url(#Rectangle_5)">
+        <rect id="Rectangle_5-2" data-name="Rectangle 5" width="19" height="18" rx="2" transform="translate(160 77)" fill="#d1d1d1"/>
+      </g>
+      <text id="_2" data-name="2" transform="translate(541 187)" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.008em"><tspan x="0.549" y="13">2</tspan></text>
+      <text id="_3521" data-name="3521" transform="translate(832 224)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">3521</tspan></text>
+    </g>
+  </g>
+</svg>

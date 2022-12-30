@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="585" height="114" viewBox="0 0 585 114">
+  <g id="Header" transform="translate(-353.918)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="585" height="114" transform="translate(353.918)" fill="#d1d1d1"/>
+    <text id="Cards_List" data-name="Cards List" transform="translate(427.918 30)" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="32">Cards List</tspan></text>
+    <g id="_" data-name="+" transform="translate(864.463 39.292)">
+      <line id="Line_1" data-name="Line 1" x2="21.416" transform="translate(0 10.708)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_2" data-name="Line 2" x2="21.416" transform="translate(10.708) rotate(90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(807.429 -0.758)">
+      <line id="Line_5" data-name="Line 5" x2="10" transform="translate(8 57.758)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_4" data-name="Line 4" x2="15" transform="translate(5 50.758)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_3" data-name="Line 3" x2="25" transform="translate(0 43.758)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
