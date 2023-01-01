@@ -365,10 +365,10 @@ button {
     gap: 25px;
     width: 50%;
     height: auto;
-    border: solid green;
+    border: 1px solid #707070;
     padding: 15px;
 }
-
+/* Header */
 .p-right-header {
     display: flex;
     flex-direction: row;
@@ -466,7 +466,7 @@ button {
     justify-content: center;
     gap: 135px;
     width: 100%;
-    height: 10%;
+    height: 7%;
 }
 
 .p-text-number {
@@ -734,7 +734,7 @@ button {
 .p-issued-access {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 17px;
     align-items: center;
     justify-content: left;
     width: 100%;
@@ -782,7 +782,7 @@ button {
 .p-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 14px;
     justify-content: flex-start;
     height: 80%;
     width: 100%;
@@ -818,9 +818,16 @@ button {
     color: black;
 }
 
+/* Hover effect over name */
+.name:hover {
+    cursor: pointer;
+    color: #6a6a6a;
+}
+
 .middle {
     display: flex;
     flex-direction: row;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     width: 30%;
@@ -838,11 +845,16 @@ button {
     color: #8B8B8B;
 }
 
+/* Hover effect over email */
+.email:hover {
+    cursor: pointer;
+    color: #6a6a6a;
+}
 
 .right {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
     justify-content: right;
     width: 30%;
@@ -865,19 +877,51 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: right;
-    height: 100%;
+    height: 90%;
     width: auto;
+    padding-top: 5px;
 
 }
+
+
 
 /* Styling code for the Recent Transaction section of the right section of the website */
 .p-recent-transaction {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 17px;
     align-items: center;
     justify-content: left;
     width: 100%;
     height: 25%;
-    border: 1px solid black;
+}
+
+.time-perieod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #D1D1D1;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9px;
+    color: black;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+
+.time-perieod:hover {
+    background-color: #b8b8b8;
+    cursor: pointer;
 }
